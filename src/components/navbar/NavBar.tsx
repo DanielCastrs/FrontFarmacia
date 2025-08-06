@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex justify-center items-center">
-        <div className="flex justify-around bg-blue-400 text-white w-1/2 rounded-2xl m-1">
+      <div className="flex justify-center">
+        <div className="flex justify-center bg-blue-400 text-white w-1/2 rounded-2xl m-1">
           <Link to="/home" className="flex text-2xl font-bold p-2 w-full">
             <Pill size={40} weight="duotone" className="p-2 " />
             Pharma Dev

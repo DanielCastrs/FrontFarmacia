@@ -10,9 +10,10 @@ import DeletarTema from "./components/categoria/deletarcategoria/DeletarCategori
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <div className="min-h-[80vh]">
+      <div className="min-h-[100vh] bg-zinc-800 ">
+        <BrowserRouter>
+          <Navbar />
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
@@ -23,9 +24,10 @@ function App() {
             <Route path="/deletartema/:id" element={<DeletarTema />} />
             <Route path="/atualizarcategoria/:id" element={<FormCategoria />} />
           </Routes>
-        </div>
-        <Footer />
-      </BrowserRouter>
+
+          <Footer />
+        </BrowserRouter>
+      </div>
     </>
   );
 }
