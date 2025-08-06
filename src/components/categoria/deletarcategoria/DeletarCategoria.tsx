@@ -72,8 +72,8 @@ function DeletarCategoria() {
             Não
           </button>
           <button
-            className="w-full text-slate-100 bg-indigo-400 
-                                   hover:bg-indigo-600 flex items-center justify-center"
+            className="w-full text-slate-100 bg-blue-400 
+                                   hover:bg-blue-600 flex items-center justify-center"
             onClick={deletarCategoria}
           >
             {isLoading ? (
